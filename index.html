@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $().ready(()=>{
+            $("#btn").click(()=>{
+                $(".p1").html("<h3>Hello</h3>")
+            })
+        })
+    </script>
+</head>
+<body>
+    <form action="./welcome.html"  >
+        <label for="name">Name:</label> <input type="text" id="name" > <br><br>
+        <label for="age">Age:</label> <input type="number" id="age" > <br><br>
+        <label for="pwd">Password:</label> <input type="password" id="pwd" > <br><br>
+        <input type="submit" value="Submit" id="btn">
+        <h2 class="p1"></h2>
+    </form>
+    
+</body>
+</html>
